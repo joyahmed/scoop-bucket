@@ -1,13 +1,13 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A fast file explorer with real tabs, 100,000-file folders and instant search. Formerly Trove.",
     "homepage": "https://zettabyteincorp.com/velkrys",
     "license": "MIT",
     "notes": "Velkrys needs Microsoft Edge WebView2, which Windows 10 and 11 already have.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/joyahmed/velkrys/releases/download/v0.1.2/Velkrys_0.1.2_x64-setup.exe#/dl.7z",
-            "hash": "9bf1b3a61fb3b681724b0e2c88911800369ce8a0191ff2e8ae27fbcdc3377762"
+            "url": "https://github.com/joyahmed/velkrys/releases/download/v0.1.3/Velkrys_0.1.3_x64-setup.exe#/dl.7z",
+            "hash": "bef32e85b33ce696cd43c9e574bba26bd06ce09ddcd30c76fb17c1c2f4162ec7"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Recurse -Force -ErrorAction SilentlyContinue",
